@@ -247,9 +247,15 @@ const GeometricNeuralNetwork: React.FC = () => {
         strokeWidth="2"
       />
 
-      {/* Images as last circles */}
-      <image x="330" y="130" href={goodredgit} height="40" width="40" />
-      <image x="325" y="230" href={linkedinIcon} height="40" width="40" />
+        {/* Images as last circles */}
+        <a href="https://github.com/Aaryan811">
+          <image x="330" y="130" href={goodredgit} height="40" width="40" />
+        </a>
+        <a href="https://linkedin.com/in/aaryan-asthana">
+          <image x="325" y="230" href={linkedinIcon} height="40" width="40" />
+        </a>
+
+
     </svg>
   );
 };
