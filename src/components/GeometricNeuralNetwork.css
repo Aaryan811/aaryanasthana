@@ -1,0 +1,20 @@
+#geometric-neural-network {
+    position: absolute;
+    right: 10px; /* Adjust the right position to move it further right */
+    bottom: 10px; /* Adjust the bottom position as needed */
+    width: 30%; /* Reduce the width to make it smaller */
+    height: auto;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #geometric-neural-network .spin-on-hover:hover {
+    animation: spin 1s linear infinite;
+  }

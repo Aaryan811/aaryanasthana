@@ -1,0 +1,41 @@
+body {
+    cursor: none; /* Hide the default cursor */
+    background-color: tan;
+}
+a {
+    cursor: none; /* Ensure the custom cursor is used when hovering over links */
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-lag {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8px; /* Slightly larger than .cursor */
+    height: 8px; /* Slightly larger than .cursor */
+    background-color: rgba(231, 76, 60, 0.5); /* Adjust color as needed */
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    transition: top 0.1s ease-out, left 0.1s ease-out; /* Smooth transition */
+}
+
+.cursor-click {
+    width: 24px; /* Bigger size when clicked */
+    height: 24px; /* Bigger size when clicked */
+    background-color: rgba(231, 76, 60, 0.3);
+    transition: transform 0.1s ease-out, width 0.1s ease-out, height 0.1s ease-out; /* Ensure smooth transition */
+}
