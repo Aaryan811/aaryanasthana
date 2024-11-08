@@ -260,4 +260,6 @@ const GeometricNeuralNetwork: React.FC = () => {
   );
 };
 
+// export the component
+
 export default GeometricNeuralNetwork;
