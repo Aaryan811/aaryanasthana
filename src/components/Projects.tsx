@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       >
         projects
       </h2>
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <h5
           style={{
             fontFamily: "'Courier New', Courier, monospace",
@@ -63,7 +63,13 @@ const Projects: React.FC = () => {
           sample text.
         </p>
       </div>
-      <hr className="my-4" />
+      <hr className="my-4" /> */}
+      <p
+        style={{
+          fontFamily: "'Courier New', Courier, monospace",
+          fontSize: "1.2rem",
+        }}> links coming soon!
+      </p>
     </div>
   );
 };
